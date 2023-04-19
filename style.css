@@ -1,0 +1,116 @@
+
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.caixa-roxa{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+ul{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    margin-left: 100px;
+
+}
+
+li{
+    font-size: 20px;
+    font-weight: 400px;
+    color: black
+}
+.logo{
+    height: 30px;
+    color: black;
+}
+.caixa-Azul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.iphone{
+    font-size: 30px;
+}
+.secundario{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.paragrafo{
+    font-size: 25px;
+    margin-bottom: 25px;
+
+}
+.preco{
+    font-size: 25px;
+    color: #626262;
+    font-weight: 300px;
+    margin-bottom: 30px;
+    
+    
+}
+.botao{
+    background-color: blue;
+    color: #ffffff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.troca-cor{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.azul{
+    background-color: #0000ff;
+}
+.amarelo{
+    background-color: #f7da47;
+}
+.branco{
+    background-color: #c1c1c1;
+}
+.preto{
+    background-color: #272d33;
+}
+.vermelho{
+    background-color: #b50012;
+}
+.roxo{
+ background-color: #ede7f1;
+}
+.escolha-cor{
+    font-size: 30px;
+    color: #3a3a3a;
+    font-weight: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.iphone{
+    width: 500px;
+    margin-top: 100px;
+    z-index: 100px;
+}
+.circulo{
+    width: 100%;
+    height: 100%;
+    background:#81a5c4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(400px at right 1000px);
+}
