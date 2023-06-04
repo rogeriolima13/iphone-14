@@ -10,6 +10,5 @@ function trocacor(cor){
 function trocaImagem (imagem) {
   let  imgiphone = document.querySelector (".iphone")
   imgiphone . src  = imagem
-  console.log("agora vai")
   
 }
